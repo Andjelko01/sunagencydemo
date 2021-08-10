@@ -1,0 +1,321 @@
+* { margin: 0; padding: 0; } html, body { width: 100%; height: 100%; } 
+.navbar-brand{
+    font-weight: 900;
+    color: white !important;
+    font-size: 30px;
+}
+.nav-link{
+    font-size: 20px;
+    font-weight: 700;
+}
+.nav-item{
+    margin-right: 20px;
+}
+.contactlink{
+    background-color: white;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    border-radius: 200px;
+    width: 130px;
+    text-align: center;
+}
+.contactlink:hover{
+    background-color: rgba(255, 255, 255,0.5);
+}
+.contactlink>a:hover{
+    color:white !important;
+}
+.contactlink>a{
+    color:black !important;
+}
+/*HERO*/
+.hero{
+    background: url('../images/desktop/image-header.jpg') no-repeat center center;
+    width: 100%;
+     height: 100%; 
+     min-width: 100%; 
+     min-height: 100%; 
+}
+body{
+    font-size: 18px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+}
+.hero-title{
+    width: 100%;   
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 10%;
+    color:hsl(0, 0%, 100%);
+    font-size: 80px;
+    font-family: 'Fraunces', serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.hero-message>img{
+    width: 50px;
+    margin-left: 48%;
+    margin-top: 5%;
+}
+/*END OF HERO*/
+.present
+{
+    background-color: #fffbf8;
+    padding: 300px;
+    
+}
+.present > h2{
+    font-family: 'Fraunces', serif;
+    font-size: 40px;
+    font-weight: 900;
+    padding-left: 110px;
+    padding-right: 110px;
+    margin-bottom: 20px;
+}
+.present > p{
+    font-size: 18px;
+    color:hsl(213, 9%, 39%);
+    padding-left: 110px;
+    padding-right: 110px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+}
+.present > a
+{
+    color: black;
+    font-family: 'Fraunces', serif !important;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration-line: none;
+    padding-left: 110px;
+    padding-right: 110px;
+    margin-left: 5px;
+}
+
+.imgPresent{
+    width: 100%;
+    height: 100%;
+}
+.row > *{
+    padding-right: 0 !important; 
+     padding-left: 0 !important;
+}
+
+.present1{
+    background: url('../images/desktop/image-graphic-design.jpg') no-repeat center;
+    background-size: cover; 
+    font-family: 'Fraunces', serif !important;
+     font-weight: 700;
+     text-decoration-line: none;
+     padding-left: 110px;
+     padding-right: 110px;
+     text-align:center;
+     color: hsl(167, 40%, 24%);
+     
+}
+.imgHead{
+    font-family: 'Fraunces', serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 60%;
+}
+.imgText{
+    font-size: 18px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    padding-left: 220px;
+    padding-right: 220px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+.present2{
+    background: url('../images/desktop/image-photography.jpg') no-repeat center;
+    background-size: cover; 
+    font-family: 'Fraunces', serif !important;
+     font-weight: 700;
+     text-decoration-line: none;
+     padding-left: 110px;
+     padding-right: 110px;
+     text-align:center;
+     color:hsl(198, 62%, 26%);
+}
+
+/*TESTIMONIALS*/
+.testimonials
+{
+    background-color: #fffbf8;
+}
+.testimonials > h1{
+    font-family: 'Fraunces', serif;
+    font-size: 40px;
+    font-weight: 900;
+    color:hsl(213, 9%, 39%);
+    text-transform: uppercase;
+  text-align: center;
+  padding: 100px;
+}
+.testimonialsImg{
+    border-radius: 50%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  padding: 30px;
+}
+.testimonialText{
+    padding: 50px 120px 50px 120px;
+    text-align: center;
+    color:hsl(213, 9%, 39%)
+}
+.testimonialName{
+    text-align: center;
+    font-size:25px;
+    font-weight: 600;
+  
+}
+.testimonialPositon{
+    text-align: center;
+    font-size:15px;
+    color:hsl(213, 9%, 39%);
+    padding-bottom: 50px;
+}
+/*END OF TESTIMONIALS*/
+.photos .col>img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+/*FOOTER*/
+footer{
+    background-color:  #90d4c5;
+    margin:0px;
+    color:hsl(167, 40%, 24%);
+    text-align: center;
+}
+.info{
+    padding: 50px;
+}
+.info>h2{
+    margin-bottom: 50px;
+    font-weight: 900;
+}
+.footer-nav>a{
+    margin:20px;
+    color:hsl(167, 40%, 24%);
+    text-decoration: none;
+    padding:10px;
+}
+.footer-nav>a:hover{
+   color:white;
+}
+footer>ul {
+    width: 400px;
+    padding: 50px;
+    margin-left: 40%;
+  }
+  footer>ul>li {
+    display: inline;
+  }
+  footer>ul>li>a>img{
+      width: 30px !important;
+      margin-right: 15px;
+  }
+  footer>ul>li>a:hover{
+    color: white;
+}
+
+/*END OF FOOTER*/
+
+/* MEDIA QUERY*/
+@media (max-width: 375px)
+ { 
+  .navbar-nav
+  {
+    position: relative;
+    text-align: center;
+    background-color: #fffbf8;
+    align-items: center;
+  }
+  .navbar-nav.arrow-top
+  {
+    margin-top: 40px;
+  }
+  
+  .navbar-nav.arrow-top:after
+  {
+    content: " ";
+    position: absolute;
+    right: 0px;
+    top: -15px;
+    border-top: none;
+    border-left: 15px solid transparent;
+    border-bottom: 15px solid #fffbf8;
+  }
+  .contactlink
+  {
+    background-color: hsl(51, 100%, 49%);
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    border-radius: 200px;
+    width: 150px;
+    text-align: center;
+
+  }
+  .nav-link{
+    color: hsl(210, 4%, 67%);
+  } 
+  .nav-item
+  {
+      margin-bottom: 20px;
+      margin-top:10px;
+  }
+    .hero
+    {
+         background-image: url('../images/mobile/image-header.jpg');
+    }
+    .hero-title{
+        font-size: 50px;
+
+    }
+    .imgText{
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-right: 0px;
+    }
+    .testimonials>h1{
+        font-size:20px;
+        padding: 0;
+        padding-top:30px;
+    }
+    .testimonialText{
+        padding:50px 30px 50px 30px;
+    }
+    .present{
+        padding: 30px;
+    }
+    .present>h2{
+      padding: 50px 50px 30px 50px;
+      text-align: center;
+    }
+    .present > p
+    {
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-right: 0px;
+        text-align: center;
+    }
+    footer>ul {
+        width:330px;
+        margin-left: 30px;
+    } 
+    .footer-nav>a{
+        margin:7px;
+        padding:0px;
+    }
+ }
+
+ 
+ /*FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
